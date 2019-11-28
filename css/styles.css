@@ -1,3 +1,33 @@
 body {
-    
+    background-color: rgb(48, 48, 48);
+}
+.logo-div {
+    display: flex;
+    justify-content: center;    
+}
+.logo {
+    height: 30%;
+    width: 30%;
+}
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3em ;
+}
+.topnav a {
+    padding: 2em;
+    background-color:gray;
+    border: 3px solid black;
+    border-radius: 10%;
+    text-decoration: none;
+    color: black;
+}
+
+.topnav a:hover {
+    background-color: rgb(53, 53, 53) ;
+    color:  rgb(255,255,255);
+} 
+.topnav a:active {
+    background-color:white;
+    color: black;
 }
