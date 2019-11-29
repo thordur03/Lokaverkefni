@@ -1,6 +1,8 @@
-body {
-    background-color: rgb(48, 48, 48);
-}
+html { 
+    background-image: url(../myndir/bground.png);
+    background-repeat: no-repeat;
+    background-size: cover ; 
+  }
 .logo-div {
     display: flex;
     justify-content: center;    
@@ -15,19 +17,68 @@ body {
     padding-top: 3em ;
 }
 .topnav a {
-    padding: 2em;
-    background-color:gray;
+    padding: 0.5em;
+    background-color:rgba(94, 93, 93, 0.712);
     border: 3px solid black;
-    border-radius: 10%;
+    border-radius: 5%;
     text-decoration: none;
     color: black;
+    font-size: 4em;
 }
 
 .topnav a:hover {
     background-color: rgb(53, 53, 53) ;
-    color:  rgb(255,255,255);
+    color:  rgb(255, 255, 255);
 } 
 .topnav a:active {
     background-color:white;
     color: black;
+}
+@media screen and (max-width: 30em) {
+    html {
+        background-image: none;
+        background-color: gray;
+    }
+    .logo {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 48em) {
+    html {
+        background-image: none;
+        background-color: gray;
+        
+    }
+    .logo {
+        height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 60em) {
+    html {
+        background-image: none;
+        background-color: gray;
+        
+    }
+    .logo {
+        height: 50%;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 65em) {
+    html {
+        background-image: none;
+        background-color: gray;
+        
+    }
+    .logo {
+        height: 50%;
+        width: 50%;
+    }
+    .topnav a {
+        height: 50%;
+        width: 50%;
+    }
 }
