@@ -38,7 +38,13 @@ html {
     html {
         background-image: none;
         background-color: gray;
+        
     }
+    .topnav {
+        display: grid;
+       
+    }
+    
     .logo {
         height: 100%;
         width: 100%;
@@ -65,6 +71,19 @@ html {
     .logo {
         height: 50%;
         width: 50%;
+    }
+    .topnav {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .topnav a {
+        border: none;
+        background: none;
+    }
+    .topnav a:active {
+        color:white;
+        background: none;
+        
     }
 }
 @media screen and (max-width: 65em) {
