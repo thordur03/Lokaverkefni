@@ -1,4 +1,36 @@
 body {
     display: grid;
     grid-gap: 1em;
+    background-image: url(../myndir/707055.jpg);
 }
+.vinstri{
+    grid-area: vinstri;
+}
+.haegri{
+    grid-area: haegri;
+}
+.fyll{
+    grid-area: fyll;
+}
+.topp{
+    grid-area: topp;
+}
+.content{
+    display: grid;
+    grid-gap:0;
+    grid-template-areas: 
+        "fyll topp"
+        "fyll haegri"
+        "fyll vinstri"; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.haegri,.vinstri,.topp{
+    color: rgba(255, 255, 255, 0.644);
+    padding: 0 1em ;
+    background: rgba(0, 0, 0, 0.425) ;
+    
+}
+.topp{
+    font-size: 2em;
+}
+
